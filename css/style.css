@@ -1,0 +1,223 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a, img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.inner-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.row-justify-space-between {
+  justify-content: space-between;
+}
+
+.row-align-items-center {
+  align-items: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.border-radius {
+  border-radius: 8px;
+}
+
+.text-bold {
+  font-weight: 700;/*bold*/
+}
+
+.text-extra-bold {
+  font-weight: 900;
+}
+
+.padding-5em {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.padding-tb2-lf0 {
+  padding: 2em 0;
+}
+
+.padding-2em {
+  padding: 2em 0;
+}
+
+.bg-teal {
+  background-color: #3882F6;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+/* Header Layout */
+header,
+.hero {
+  background-color: #1F2937;
+}
+
+.logo-header {
+  max-width: 100px;
+}
+
+.logo-img,
+.hero-img {
+  max-width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item + .nav-item {
+  margin-left: 2em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #73faff;
+}
+/* Header Layout */
+
+/* Hero Section */
+
+.hero {
+  padding: 4em 0 6em 0;
+}
+
+.hero-content {
+  width: 50%;
+  align-self: flex-start;
+}
+
+.hero-img-container {
+  max-width: 500px;
+  width: 45%;
+}
+
+.hero-h1 {
+  font-size: 3rem;/*48px*/
+  color: #fff;
+  margin: 0;
+}
+
+.hero-sub-content {
+  font-size: 1.125rem;/*18px*/
+  color: #E5E7EB;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  padding: .5em 0;
+  width: 22%;
+}
+
+/* Hero Section */
+
+/* Random Information Section */
+
+.info-h2 {
+  font-size: 2.25rem;/*36px*/
+  color: #1F2937;
+  margin-bottom: 1em;
+}
+
+.info-img-container {
+  width: 100%;
+}
+
+.info-container {
+  max-width: 165px;
+}
+
+.info-section-container {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  
+}
+
+/* Random Information Section */
+
+/* Testimonial section */
+.testimonial-section {
+  background-color: #E5E7EB;
+}
+
+.quote-color {
+  color: #1F2937;
+}
+
+.quote-text {
+  font-size: 2.25rem;/*36px*/
+  font-style: italic;
+}
+
+.quoted-by {
+  font-weight: bold;
+}
+/* Testimonial section */
+
+/* Sign up call to action section */
+
+.call-to-action-subcontent {
+  color: #E5E7EB;
+}
+
+.sign-up-action-link {
+  border: 3px solid #fff;
+  align-self: center;
+  padding: .5em 2em;
+}
+
+.sign-up-action-link:hover,
+.sign-up-action-link:focus {
+  color: #73faff;
+  border-color: #73faff;
+}
+
+/* Sign up call to action section */
+
+footer {
+  background-color: #1F2937;
+}
